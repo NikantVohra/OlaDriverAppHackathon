@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "SCUI.h"
 
 @interface AppDelegate ()
 
@@ -15,8 +16,17 @@
 @implementation AppDelegate
 
 
++ (void)initialize;
+{
+    [SCSoundCloud  setClientID:@"3176259fee7aa4008ed96ac98729eaab"
+                        secret:@"f68cce16b3b2c6b0b1edaaee63e6364b"
+                   redirectURL:[NSURL URLWithString:@"olachaloniklo://oauth"]];
+}
+
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [GMSServices provideAPIKey:@"AIzaSyAP31ar9LCNwvIlsjU7Mt-A7-NZMcJ_T4A"];
     return YES;
 }
 

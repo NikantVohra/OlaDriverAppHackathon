@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		050E10011A868D99006F4FF7 /* TracksListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 050E10001A868D99006F4FF7 /* TracksListViewController.m */; };
 		057750511A847A0800F18B0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 057750501A847A0800F18B0D /* main.m */; };
 		057750541A847A0800F18B0D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 057750531A847A0800F18B0D /* AppDelegate.m */; };
 		057750571A847A0800F18B0D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 057750561A847A0800F18B0D /* ViewController.m */; };
@@ -14,6 +15,20 @@
 		0577505C1A847A0800F18B0D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0577505B1A847A0800F18B0D /* Images.xcassets */; };
 		0577505F1A847A0800F18B0D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0577505D1A847A0800F18B0D /* LaunchScreen.xib */; };
 		0577506B1A847A0800F18B0D /* olaappathonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0577506A1A847A0800F18B0D /* olaappathonTests.m */; };
+		057750751A847A8E00F18B0D /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 057750741A847A8E00F18B0D /* GoogleMaps.framework */; };
+		057750771A847ABB00F18B0D /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 057750761A847ABB00F18B0D /* GoogleMaps.bundle */; };
+		057750791A847ADE00F18B0D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 057750781A847ADE00F18B0D /* AVFoundation.framework */; };
+		0577507B1A847AE500F18B0D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0577507A1A847AE500F18B0D /* CoreData.framework */; };
+		0577507D1A847AEE00F18B0D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0577507C1A847AEE00F18B0D /* CoreLocation.framework */; };
+		0577507F1A847AF700F18B0D /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0577507E1A847AF700F18B0D /* CoreText.framework */; };
+		057750811A847AFF00F18B0D /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 057750801A847AFF00F18B0D /* GLKit.framework */; };
+		057750831A847B0800F18B0D /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 057750821A847B0800F18B0D /* ImageIO.framework */; };
+		057750851A847B1400F18B0D /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 057750841A847B1400F18B0D /* libc++.dylib */; };
+		057750871A847B3800F18B0D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 057750861A847B3800F18B0D /* OpenGLES.framework */; };
+		057750891A847B4000F18B0D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 057750881A847B4000F18B0D /* QuartzCore.framework */; };
+		0577508B1A847B4900F18B0D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0577508A1A847B4900F18B0D /* SystemConfiguration.framework */; };
+		0577508D1A847E5B00F18B0D /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0577508C1A847E5B00F18B0D /* libz.dylib */; };
+		261CC1BE0835B8640924B018 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E9AF41FF15A82133920A963 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		050E0FFF1A868D99006F4FF7 /* TracksListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TracksListViewController.h; sourceTree = "<group>"; };
+		050E10001A868D99006F4FF7 /* TracksListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TracksListViewController.m; sourceTree = "<group>"; };
 		0577504B1A847A0800F18B0D /* olaappathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = olaappathon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0577504F1A847A0800F18B0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		057750501A847A0800F18B0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +57,22 @@
 		057750641A847A0800F18B0D /* olaappathonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = olaappathonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		057750691A847A0800F18B0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0577506A1A847A0800F18B0D /* olaappathonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = olaappathonTests.m; sourceTree = "<group>"; };
+		057750741A847A8E00F18B0D /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		057750761A847ABB00F18B0D /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		057750781A847ADE00F18B0D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0577507A1A847AE500F18B0D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0577507C1A847AEE00F18B0D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0577507E1A847AF700F18B0D /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		057750801A847AFF00F18B0D /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		057750821A847B0800F18B0D /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		057750841A847B1400F18B0D /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		057750861A847B3800F18B0D /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		057750881A847B4000F18B0D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0577508A1A847B4900F18B0D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0577508C1A847E5B00F18B0D /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		1E9AF41FF15A82133920A963 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A1CA011CA19C1CE0BE3ECF3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		B90077DADC01B42551E7EC6B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +80,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0577508D1A847E5B00F18B0D /* libz.dylib in Frameworks */,
+				0577508B1A847B4900F18B0D /* SystemConfiguration.framework in Frameworks */,
+				057750891A847B4000F18B0D /* QuartzCore.framework in Frameworks */,
+				057750871A847B3800F18B0D /* OpenGLES.framework in Frameworks */,
+				057750851A847B1400F18B0D /* libc++.dylib in Frameworks */,
+				057750831A847B0800F18B0D /* ImageIO.framework in Frameworks */,
+				057750811A847AFF00F18B0D /* GLKit.framework in Frameworks */,
+				0577507F1A847AF700F18B0D /* CoreText.framework in Frameworks */,
+				0577507D1A847AEE00F18B0D /* CoreLocation.framework in Frameworks */,
+				0577507B1A847AE500F18B0D /* CoreData.framework in Frameworks */,
+				057750791A847ADE00F18B0D /* AVFoundation.framework in Frameworks */,
+				057750751A847A8E00F18B0D /* GoogleMaps.framework in Frameworks */,
+				261CC1BE0835B8640924B018 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,9 +109,22 @@
 		057750421A847A0800F18B0D = {
 			isa = PBXGroup;
 			children = (
+				0577508C1A847E5B00F18B0D /* libz.dylib */,
+				0577508A1A847B4900F18B0D /* SystemConfiguration.framework */,
+				057750881A847B4000F18B0D /* QuartzCore.framework */,
+				057750861A847B3800F18B0D /* OpenGLES.framework */,
+				057750841A847B1400F18B0D /* libc++.dylib */,
+				057750821A847B0800F18B0D /* ImageIO.framework */,
+				057750801A847AFF00F18B0D /* GLKit.framework */,
+				0577507E1A847AF700F18B0D /* CoreText.framework */,
+				0577507C1A847AEE00F18B0D /* CoreLocation.framework */,
+				0577507A1A847AE500F18B0D /* CoreData.framework */,
+				057750781A847ADE00F18B0D /* AVFoundation.framework */,
 				0577504D1A847A0800F18B0D /* olaappathon */,
 				057750671A847A0800F18B0D /* olaappathonTests */,
 				0577504C1A847A0800F18B0D /* Products */,
+				1C32F35D763B54844DEDF0AD /* Pods */,
+				40C60D74D47DD0F759B9A4BD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +140,8 @@
 		0577504D1A847A0800F18B0D /* olaappathon */ = {
 			isa = PBXGroup;
 			children = (
+				057750761A847ABB00F18B0D /* GoogleMaps.bundle */,
+				057750741A847A8E00F18B0D /* GoogleMaps.framework */,
 				057750521A847A0800F18B0D /* AppDelegate.h */,
 				057750531A847A0800F18B0D /* AppDelegate.m */,
 				057750551A847A0800F18B0D /* ViewController.h */,
@@ -89,6 +150,8 @@
 				0577505B1A847A0800F18B0D /* Images.xcassets */,
 				0577505D1A847A0800F18B0D /* LaunchScreen.xib */,
 				0577504E1A847A0800F18B0D /* Supporting Files */,
+				050E0FFF1A868D99006F4FF7 /* TracksListViewController.h */,
+				050E10001A868D99006F4FF7 /* TracksListViewController.m */,
 			);
 			path = olaappathon;
 			sourceTree = "<group>";
@@ -119,6 +182,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		1C32F35D763B54844DEDF0AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A1CA011CA19C1CE0BE3ECF3 /* Pods.debug.xcconfig */,
+				B90077DADC01B42551E7EC6B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		40C60D74D47DD0F759B9A4BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E9AF41FF15A82133920A963 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +206,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0577506E1A847A0800F18B0D /* Build configuration list for PBXNativeTarget "olaappathon" */;
 			buildPhases = (
+				D56DF0D9C5E84317D02F965B /* Check Pods Manifest.lock */,
 				057750471A847A0800F18B0D /* Sources */,
 				057750481A847A0800F18B0D /* Frameworks */,
 				057750491A847A0800F18B0D /* Resources */,
+				C6EFFBA8128FD23D35EC1A83 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,6 +284,7 @@
 				0577505A1A847A0800F18B0D /* Main.storyboard in Resources */,
 				0577505F1A847A0800F18B0D /* LaunchScreen.xib in Resources */,
 				0577505C1A847A0800F18B0D /* Images.xcassets in Resources */,
+				057750771A847ABB00F18B0D /* GoogleMaps.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,11 +297,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C6EFFBA8128FD23D35EC1A83 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D56DF0D9C5E84317D02F965B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		057750471A847A0800F18B0D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				050E10011A868D99006F4FF7 /* TracksListViewController.m in Sources */,
 				057750571A847A0800F18B0D /* ViewController.m in Sources */,
 				057750541A847A0800F18B0D /* AppDelegate.m in Sources */,
 				057750511A847A0800F18B0D /* main.m in Sources */,
@@ -343,20 +460,60 @@
 		};
 		0577506F1A847A0800F18B0D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A1CA011CA19C1CE0BE3ECF3 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/olaappathon",
+				);
 				INFOPLIST_FILE = olaappathon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-l\"Pods-CocoaSoundCloudAPI\"",
+					"-l\"Pods-CocoaSoundCloudUI\"",
+					"-l\"Pods-JSONKit\"",
+					"-l\"Pods-NXOAuth2Client\"",
+					"-l\"Pods-OHAttributedLabel\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"Security\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		057750701A847A0800F18B0D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B90077DADC01B42551E7EC6B /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/olaappathon",
+				);
 				INFOPLIST_FILE = olaappathon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-l\"Pods-CocoaSoundCloudAPI\"",
+					"-l\"Pods-CocoaSoundCloudUI\"",
+					"-l\"Pods-JSONKit\"",
+					"-l\"Pods-NXOAuth2Client\"",
+					"-l\"Pods-OHAttributedLabel\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"Security\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -414,6 +571,7 @@
 				057750701A847A0800F18B0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		057750711A847A0800F18B0D /* Build configuration list for PBXNativeTarget "olaappathonTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +580,7 @@
 				057750731A847A0800F18B0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
